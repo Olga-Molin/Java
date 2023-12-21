@@ -44,7 +44,9 @@ public class Main {
 ## Задание №3 
 > Составить алгоритм: на входе есть числовой массив, необходимо вывести элементы массива кратные 3
 > > Решение
-```Java public class Main {
+```Java import java.util.Scanner;
+
+public class Main {
     public static void main(String[] args) {
         int[] array = {1, 3, 5, 6, 9, 10, 12};
         printMultiplesOfThree(array);
